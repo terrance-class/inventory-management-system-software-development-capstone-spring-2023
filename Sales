@@ -1,0 +1,32 @@
+
+@GetContoller
+public class Sales{
+    private int id;
+
+    @GetMapping
+    public String details(@RequestParam String details){
+        return String.format("Please details here");
+    }
+    @GetMapping
+    public String date(@RequestParam String date){
+        return String.format("Please date here");
+    }
+    @GetMapping
+    public String transatcion(@RequestParam String transatcion){
+        return String.format("Please insert transatcion here");
+    }
+
+    public Sales = new Sales(id, String details, String date, String transatcion){
+
+    @GetMapping("/sales")
+    public ArratList<Sales> suppy = new ArratList<Supply>();
+    this.id = id;
+    this.details = details;
+    this.date = date;
+    this.transatcion = transatcion;
+
+    }
+
+
+
+}

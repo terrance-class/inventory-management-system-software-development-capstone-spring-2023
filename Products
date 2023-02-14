@@ -1,0 +1,32 @@
+
+@GetContoller
+public class products{
+    private int id;
+
+    @GetMapping
+    public String name(@RequestParam String name){
+        return String.format("Please insert name here");
+    }
+    @GetMapping
+    public String price(@RequestParam String price){
+        return String.format("Please insert price here");
+    }
+    @GetMapping
+    public String details(@RequestParam String details){
+        return String.format("Please insert details here");
+    }
+
+    public Product = new Product(id, String name, String price, String details){
+
+    @GetMapping("/product")
+    public ArratList<Product> suppy = new ArratList<Supply>();
+    this.id = id;
+    this.price = price;
+    this.details = details;
+    this.name = name;
+
+    }
+
+
+
+}

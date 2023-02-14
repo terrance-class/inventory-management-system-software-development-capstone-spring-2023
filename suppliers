@@ -1,0 +1,32 @@
+
+@GetContoller
+public class inventory{
+    private int id;
+
+    @GetMapping
+    public String name(@RequestParam String name){
+        return String.format("Please insert name here");
+    }
+    @GetMapping
+    public String address(@RequestParam String address){
+        return String.format("Please insert address here");
+    }
+    @GetMapping
+    public String contact(@RequestParam String contact){
+        return String.format("Please insert contact title here");
+    }
+
+    public Supply = new Supply(id, String name, String address, String contacts){
+
+    @GetMapping("/supply")
+    public ArratList<Supply> suppy = new ArratList<Supply>();
+    this.id = id;
+    this.address = address;
+    this.contact = contact;
+    this.name = name;
+
+    }
+
+
+
+}

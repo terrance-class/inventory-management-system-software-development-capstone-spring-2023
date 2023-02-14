@@ -1,0 +1,37 @@
+
+@GetContoller
+public class transaction{
+    private int id;
+
+    @GetMapping
+    public String name(@RequestParam String name){
+        return String.format("Please insert name here");
+    }
+    @GetMapping
+    public String details(@RequestParam String details){
+        return String.format("Please insert details here");
+    }
+    @GetMapping
+    public String date(@RequestParam String date){
+        return String.format("Please insert date here");
+    }
+    @GetMapping
+    public String conformation(@RequestParam String conformation){
+        return String.format("Please conformation information here");
+    }
+
+    public Supply = new Supply(id, String name, String address, String contacts, String conformation){
+
+    @GetMapping("/transaction")
+    public ArratList<Transaction> suppy = new ArratList<Transaction>();
+    this.id = id;
+    this.address = address;
+    this.contact = contact;
+    this.conformation = conformation
+    this.name = name;
+
+    }
+
+
+
+}
